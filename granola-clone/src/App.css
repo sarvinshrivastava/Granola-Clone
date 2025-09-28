@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+}
+
+.container {
+  padding: 20px;
+}
+
+.navbar {
+  background: #4cafef;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.start-btn,
+.end-btn,
+.mic-btn {
+  padding: 10px 20px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.start-btn {
+  background: #4caf50;
+  color: white;
+}
+
+.end-btn {
+  background: #f44336;
+  color: white;
+}
+
+.mic-btn {
+  background: #2196f3;
+  color: white;
+}
+
+.mic-btn.active {
+  background: #ff9800;
+}
